@@ -23,6 +23,26 @@ pip install bert4keras==0.9.9
 
 百度网盘：[链接](https://pan.baidu.com/s/1SLc_0yfEAukdGB2ctfEgTQ) 提取码：kqiu
 
+### 模型配置：
+
+```
+{
+    "attention_head_size": 64, 
+    "hidden_act": [
+        "gelu", 
+        "linear"
+    ], 
+    "hidden_dropout_prob": 0.1, 
+    "hidden_size": 768, 
+    "initializer_range": 0.02, 
+    "intermediate_size": 2048, 
+    "num_attention_heads": 12, 
+    "num_hidden_layers": 12, 
+    "type_vocab_size": 3, 
+    "vocab_size": 13686
+}
+```
+
 ### 模型预训练过程：
 
 两阶段预训练：90%采用128句子长度，10%采用512句子长度
@@ -72,6 +92,27 @@ mlm_acc曲线：
 
 百度网盘：[链接](https://pan.baidu.com/s/1mWZUuEbCb5nbWRdN1TdnKw) 提取码：shz8
 
+### 模型配置：
+
+```
+{
+    "attention_head_size": 32, 
+    "hidden_act": [
+        "gelu", 
+        "linear"
+    ],
+    "hidden_dropout_prob": 0,
+    "dropout_rate": 0,
+    "hidden_size": 384,
+    "embedding_size": 128,
+    "initializer_range": 0.02, 
+    "intermediate_size": 1024, 
+    "num_attention_heads": 12, 
+    "num_hidden_layers": 4, 
+    "type_vocab_size": 3, 
+    "vocab_size": 13686
+}
+```
 ### 模型预训练过程：
 
 两阶段预训练：90%采用128句子长度，10%采用512句子长度
