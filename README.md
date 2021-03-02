@@ -21,7 +21,7 @@ pip install bert4keras==0.9.9
 
 ### 模型参数下载地址：
 
-百度网盘：[链接](https://pan.baidu.com/s/1SLc_0yfEAukdGB2ctfEgTQ) 提取码：kqiu
+百度网盘：[链接](https://pan.baidu.com/s/11SsxyHwo-ESusUzoUj-qww) 提取码：qg7s
 
 ### 模型配置：
 
@@ -79,11 +79,11 @@ num_train_steps = 25000
 
 mlm_loss曲线：
 
-整理中
+![chinese_t5s_base_mlm_loss_step_1](images/chinese_t5s_base_mlm_loss_step_1.png)
 
 mlm_acc曲线：
 
-整理中
+![chinese_t5s_base_mlm_acc_step_1](images/chinese_t5s_base_mlm_acc_step_1.png)
 
 
 ## Tiny No Dropout版本
